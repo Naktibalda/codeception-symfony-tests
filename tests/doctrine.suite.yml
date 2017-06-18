@@ -1,0 +1,8 @@
+class_name: DoctrineTester
+modules:
+    enabled:
+        - \Helper\Doctrine
+        - Symfony
+        - Doctrine2:
+            depends:
+              Symfony
